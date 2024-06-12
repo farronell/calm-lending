@@ -1,0 +1,27 @@
+.section {
+	@apply w-[1440px] h-[400px] flex flex-row justify-center items-center gap-5;
+}
+
+.titleForm {
+	@apply w-[380px] flex flex-col justify-evenly h-[180px];
+}
+
+.titleForm_heading {
+	@apply text-3xl;
+}
+
+.titleForm_text {
+	@apply text-base text-justify;
+}
+
+.form {
+	@apply flex flex-col text-xs gap-[10px] w-[380px];
+}
+
+.btn {
+	@apply bg-slate-950 text-white w-20 h-10 rounded-md text-base shadow-lg hover:shadow-2xl hover:w-24 hover:h-11 duration-700
+}
+
+.inpt {
+	@apply rounded-lg border-gray-200 bg-gray-50;
+}

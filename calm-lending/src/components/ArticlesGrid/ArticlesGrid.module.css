@@ -1,0 +1,9 @@
+.gridContainer {
+    @apply grid gap-4;
+    grid-template-columns: 1fr 1fr 1.5fr 0.5fr 1fr 1fr 0.5fr 1.5fr 1fr 1fr;
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.wraper {
+  @apply w-[1440px] px-[336px] py-[100px] bg-[#FAFAFA];
+}

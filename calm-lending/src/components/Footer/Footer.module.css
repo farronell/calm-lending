@@ -1,0 +1,11 @@
+.footer {
+	@apply w-full flex justify-center items-center py-24;
+}
+
+.footer_card {
+	@apply flex flex-col gap-6;
+}
+
+.footer_nav {
+	@apply flex flex-row gap-5;
+}

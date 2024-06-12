@@ -1,0 +1,8 @@
+.header {
+    @apply flex flex-row justify-between w-[1200px] items-center m-auto my-5
+}
+
+.nav {
+    font-family: "Noto Sans Georgian", sans-serif;
+    @apply flex flex-row gap-5 
+}

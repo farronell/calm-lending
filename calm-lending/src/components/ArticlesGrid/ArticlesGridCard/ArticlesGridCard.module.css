@@ -1,0 +1,36 @@
+.p0 {
+  @apply col-span-7 row-span-2;
+}
+.p1 {
+  @apply col-start-8 col-span-3 row-start-1 row-span-1;
+}
+.p2 {
+  @apply col-start-8 col-span-3 row-start-2 row-span-1;
+}
+.p3 {
+  @apply col-span-5 row-start-3;
+}
+.p4 {
+  @apply col-start-6 col-span-5 row-start-3;
+}
+.p5 {
+  @apply col-span-3 col-start-1 row-start-4;
+}
+.p6 {
+  @apply col-span-4 col-start-4 row-start-4;
+}
+.p7 {
+  @apply col-span-3 col-start-8 row-start-4;
+}
+
+.article {
+  @apply rounded  shadow-lg;
+}
+
+.textContainer {
+  @apply h-full flex flex-col justify-between
+}
+
+.image {
+  @apply w-full;
+}
